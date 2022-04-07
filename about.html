@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <title>SwiftTech</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/materialize.min.css">
+        <style type="text/css">
+            #loader {
+                height: 100vh;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+    
+            }
+    
+            .progress {
+                display: none;
+            }
+    
+            .errorMsg {
+                font-size: 34px;
+                height: 100vh;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+        </style>
+    </head>
+</head>
+<body bgcolor="grey">
+    <div class="navbar-fixed">
+		<nav class="black">
+			<div class="nav-wrapper">
+				<div class="container">
+					<a href="#" class="brand-logo">SwiftTech</a>
+					<ul id="nav-mobile" class="right hide-on-med-and-down">
+						<li class="active"><a href="index.html">News</a></li>
+						<li><a href="about.html">Resources</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+	</div>
+    <div style={{ textAlign: justify-self: start; }}>
+        <p>Interested in learning how to program, learning a new technology, or just want a quick refresher on a topic? Take a look at these resources here!</p>
+        <p><strong>Resources with a &nbsp;⭐&nbsp; are recommended for anyone that has never programmed before or are new to the field of computer science!</strong></p>
+        <h2 id="courses-bootcamps-and-tutorials">Courses, Bootcamps, and Tutorials</h2>
+        <hr />
+        <h3 id="interactive-coding-tutorials">Interactive Coding Tutorials</h3>
+        <ul>
+            <li><a href="https://www.codecademy.com"><strong>Codecademy</strong></a>⭐<br />Free interactive, hands-on coding tutorials to help you learn to program. Has courses on HTML, CSS, JavaScript, React, Java, C++, C#, SQL, and more!</li>
+            <li><a href="https://www.freecodecamp.org/"><strong>freeCodeCamp</strong></a> ⭐<br />Free coding tutorials covering a variety of topics. Has courses on Responsive Web Design, Data Visualization, APIs and Microservices, Scientific Computing, Data Analysis, Machine Learning, and more!</li>
+        </ul>
+        <h3 id="college-courses">College Courses</h3>
+        <ul>
+            <li><a href="https://cs50.harvard.edu/x"><strong>Harvard&#39;s CS50x</strong></a> ⭐
+                A structured online college-level course that teaches the fundamentals of computer science with tracks in web development, mobile app development, and game development. Course culminates in a final project.</li>
+            <li><a href="https://java-programming.mooc.fi"><strong>University of Helsinki&#39;s Java Programming MOOC</strong></a><br />University of Helsinki’s free massive open online course (MOOC) on programming! This is an updated version of their popular course &quot;Object-Oriented Programming with Java&quot;. </li>
+        </ul>
+        <h3 id="full-stack-development">Full-Stack Development</h3>
+        <ul>
+            <li><a href="https://open.appacademy.io"><strong>App Academy Open</strong></a><br />The free online version of App Academy&#39;s bootcamp that teaches App Academy&#39;s entire in-person full-stack curriculum. </li>
+            <li><a href="https://fullstackopen.com/en"><strong>Full Stack Open</strong></a><br />An introduction to modern web application development with JavaScript. The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js, as well as a section on GraphQL. </li>
+            <li><a href="https://www.theodinproject.com"><strong>The Odin Project</strong></a><br />A free, open source coding curriculum that can be taken entirely online. Has learning paths for full-stack Ruby on Rails, full-stack JavaScript, and front-end. </li>
+        </ul>
+        <h3 id="web-development">Web Development</h3>
+        <ul>
+            <li><a href="https://btholt.github.io/intro-to-web-dev-v2"><strong>Intro to Web Dev</strong></a><br />An introduction to web development, created by a cloud developer advocate at Microsoft.</li>
+        </ul>
+        <h3 id="other">Other</h3>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=RBSGKlAvoiM"><strong>Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer</strong></a><br />Learn and master the most common data structures in this full course from Google engineer William Fiset. This course teaches data structures to beginners using high quality animations to represent the data structures visually.</li>
+            <li><a href="https://lab.github.com"><strong>GitHub Learning Lab</strong></a><br />Grow your skills by completing fun, realistic projects. Get advice and helpful feedback from GitHub&#39;s friendly Learning Lab bot.</li>
+            <li><a href="https://course.fullstackdeeplearning.com"><strong>Full Stack Deep Learning</strong></a><br />Full Stack Deep Learning helps you bridge the gap from training machine learning models to deploying AI systems in the real world. </li>
+        </ul>
+        <h2 id="tools-and-technologies">Tools and Technologies</h2>
+        <hr />
+        <h3 id="git">Git</h3>
+        <ul>
+            <li><a href="https://git-scm.com/book/en/v2"><strong>Pro Git</strong></a><br />A popular book that teaches Git.</li>
+            <li><a href="https://learngitbranching.js.org"><strong>Learn Git Branching</strong></a><br />An interactive way to learn Git. You&#39;ll be challenged with exciting levels, given step-by-step demonstrations of powerful features, and maybe even have a bit of fun along the way.</li>
+            <li><a href="https://gitimmersion.com"><strong>Git Immersion</strong></a><br />A guided tour that walks through the fundamentals of Git, inspired by the premise that to know a thing is to do it. </li>
+            <li><a href="https://guides.github.com"><strong>GitHub Guides</strong></a><br />Guides about collaborating using GitHub.</li>
+            <li><a href="http://www.ndpsoftware.com/git-cheatsheet.html"><strong>Git Cheatsheet</strong></a><br />Interactive Git Cheatsheet, categorizing commands based on what they affect.</li>
+        </ul>
+        <h3 id="java">Java</h3>
+        <ul>
+            <li><a href="https://yfain.github.io/Java4Kids"><strong>Java Programming for Kids</strong></a><br />A beginner-friendly guide to Java. Also includes an introduction to networking and to Git/GitHub.</li>
+        </ul>
+        <h3 id="linux-unix">Linux/Unix</h3>
+        <h4 id="command-line">Command Line</h4>
+        <ul>
+            <li><a href="http://conqueringthecommandline.com/book"><strong>Conquering the Command Line</strong></a><br />Learn to master and conquer the most valuable and useful command line tools for Unix and Linux based systems.</li>
+        </ul>
+        <h4 id="shell-scripting">Shell Scripting</h4>
+        <ul>
+            <li><a href="https://www.gnu.org/software/bash/manual"><strong>Bash Manual</strong></a><br />The bash manual from GNU. </li>
+            <li><a href="https://www.shellscript.sh"><strong>The Shell Scripting Tutorial</strong></a><br />Learn the basics of shell scripting.</li>
+        </ul>
+        <h2 id="data-structures-and-algorithms-interview-prep">Data Structures and Algorithms/Interview Prep</h2>
+
+        <hr />
+        <ul>
+            <li><a href="https://github.com/TSiege/Tech-Interview-Cheat-Sheet"><strong>Tech Interview Cheat Sheet</strong></a><br />A cheat sheet for many concepts covered in technical interviews, including data structures and algorithms.</li>
+        </ul>
+        <h2 id="events-and-workshops">Events and Workshops</h2>
+
+        <hr />
+
+        <ul>
+            <li><a href="https://mlh.io/seasons/localhost/events"><strong>MLH Localhost Workshops</strong></a><br />Workshops covering today&#39;s most relevant technologies, so you can level up and build your skills quickly. Hosted by MLH and their partners.</li>
+            <li><a href="https://mlh.io/seasons/2021/events"><strong>MLH Hackathons</strong></a><br />A list of hackathons where students learn, build &amp; share their creations over the course of a weekend in a relaxed and welcoming atmosphere. Many hackathons also have educational workshops to learn from!</li>
+        </ul>
+        <h2 id="miscellaneous">Miscellaneous</h2>
+
+        <hr />
+
+        <ul>
+            <li><a href="https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md"><strong>Free Programming Books</strong></a><br />A large collection of free programming books.</li>
+            <li><a href="https://roadmap.sh"><strong>Developer Roadmaps</strong></a><br />Step by step guides and paths to learn different tools or technologies.</li>
+            <li><a href="https://github.com/kamranahmedse/developer-roadmap"><strong>Web Developer Roadmap 2020</strong></a><br />A roadmap to becoming a web developer in 2020.</li>
+        </ul>
+
+    </div>
+    <div style= { textAlign: justify-self: start; }>
+        <h2 id="collections">Collections</h2>
+        <hr />
+        <ul>
+          <li><a href="https://education.github.com/pack"><strong>GitHub Student Developer Pack</strong></a><br />A collection of premium tools and services that are free for students.</li>
+          <li><a href="https://free-for.dev"><strong>free-for.dev</strong></a><br />A large collection of tools and services that have free tiers for everyone to use.</li>
+          <li><a href="https://webgems.io"><strong>webgems.io</strong></a><br />webgems is a goto place for devs and designers to find new resources and more.</li>
+          <li><a href="https://www.bookmarks.design"><strong>bookmarks.design</strong></a><br />A collection of resources for designers.</li>
+        </ul>
+        <h2 id="utilities">Utilities</h2>
+        <hr />
+        <ul>
+          <li><a href="https://squoosh.app"><strong>Squoosh</strong></a><br />Squoosh is an image compression web app that allows you to dive into the advanced options provided by various image compressors.</li>
+          <li><a href="https://www.remove.bg"><strong>remove.bg</strong></a><br />A tool that removes the background from images.</li>
+          <li><a href="https://getwaves.io"><strong>Get Waves</strong></a><br />A free SVG wave generator to make unique SVG waves for your next web design. Choose a curve, adjust complexity, randomize!</li>
+        </ul>
+        <h2 id="design">Design</h2>
+        <hr />
+        <h3 id="tools">Tools</h3>
+        <ul>
+          <li><a href="https://www.figma.com"><strong>Figma</strong></a><br />Figma is a vector graphics editor and prototyping tool used for designing application mockups.</li>
+        </ul>
+        <h3 id="inspiration">Inspiration</h3>
+        <ul>
+          <li><a href="https://dribbble.com"><strong>Dribbble</strong></a><br />A platform for designers to share their creations.</li>
+        </ul>
+        <h3 id="icons">Icons</h3>
+        <ul>
+          <li><a href="https://fontawesome.com"><strong>Font Awesome</strong></a><br />A popular font and icon toolkit.</li>
+          <li><a href="http://simpleicons.org"><strong>Simple Icons</strong></a><br />Over 1000 Free SVG icons for popular brands.</li>
+        </ul>
+  
+      </div>
+</body>
+</html>
